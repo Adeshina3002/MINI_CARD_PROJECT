@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+#card-project {
+  background-color: #fcebeb;
+  width: 34.48vw;
+  height: 39.26vh;
+  margin: 2rem auto;
+  box-shadow: 4px 12px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-project-container {
+  display: flex;
+  padding: 20px;
+}
+
+.img-description {
+  position: relative;
+}
+
+.logo {
+  margin: 10px 0 16px 23px;
+}
+
+.title {
+  margin-left: -8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.product-content {
+  display: grid;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  /* position: relative; */
+  margin-left: 1rem;
+}
+
+.transaction-form {
+  font-weight: 500;
+  font-size: 18px;
+  
+  color: #ff4848;
+}
+
+.transaction-amount {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ff4848;
+  position: absolute;
+  top: 130px;
+  margin-left: 1rem;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  position: absolute;
+  top: 241px;
+  margin-left: 4.3rem;
+}
+
+.product-link {
+  background-color: #ff1515;
+  height: 31px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-top: 7px;
+}
+
+/* DESIGN 2 */
+
+#card-project-2 {
+  background-color: #fff;
+  width: 34.48vw;
+  height: 39.26vh;
+  margin: 2rem auto;
+  border: 2px solid #000;
+}
+
+.top-content {
+  display: flex;
+  margin: 10px 20px;
+}
+
+.pin-text {
+  background-color: #32a2e1;
+  clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+  width: 90%;
+  height: 59px;
+  display: flex;
+  padding: 15px 10px 10px 5px;
+  gap: 10px;
+}
+
+.pin-text h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.rectangle-box {
+  width: 229px;
+  height: 38px;
+  background-color: #fff;
+}
+
+.image-content {
+  width: 10%;
+  margin: 15px 0;
+}
+
+.image-content img {
+  width: 120%;
+  margin-left: -20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.text-content {
+  text-align: center;
+  color: #000;
+  margin-top: -1.6rem;
+  line-height: 21px;
+}
+
+.instruction {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  margin: 10px 0;
+}
+
+.dial-number {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.token-pin {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.amount {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.horizontal-rule {
+  width: 468px;
+  height: 0px;
+  border: 1px solid #aaa6a6;
+}
+
+.footer {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0px 20px;
+}
+
+.product-id  {
+    margin-bottom: 8px;
+}
+
+.batch-id {
+    padding-bottom: 2px;
+}
+
+.apart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barcode {
+  margin-top: -1rem;
+  position: absolute;
+  left: 796px;
+top: 545px;
+}
